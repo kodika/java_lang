@@ -1,4 +1,12 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.0
+//
+//  Package.swift
+//  SwiftJava
+//
+//  Created by John Holdsworth on 20/07/2016.
+//  Copyright (c) 2016 John Holdsworth. All rights reserved.
+//
+
 import PackageDescription
 
 let package = Package(
@@ -11,7 +19,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/PureSwift/java_swift.git",
+            url: "https://github.com/kodika/java_swift.git",
             .branch("master")
         ),
     ],
